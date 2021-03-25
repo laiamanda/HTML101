@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+
+<h1> Register</h1>
+
+<form>
+	<label for= "firstName"> First Name
+		<input id = "firstName" name = "firstName"type = "text" placeholder = "John" required>
+	</label>
+	
+	<label for= "lastName"> Last Name
+		<input id = "lastName" name = "lastName"type = "text" placeholder = "Smith" required>
+	</label>
+<div>
+<p>Gender:</p>
+	<label for = "male"> Male: </label>
+		<input name = "userChoice" id = "male" type = "radio" value = "MALE"> </label>
+
+	<label for = "woman">Woman:</label>
+		<input name = "userChoice" id = "female" type = "radio" value = "FEMALE"> </input>
+</div>
+
+	<label for= "username"> Email
+		<input id = "username" name = "username"type = "email" placeholder = "your email" required>
+	</label>
+
+<label>
+	<select name = "month_birthday">
+		<option>Month</option>
+		<option>Jan</option>
+		<option>Feb</option>
+		<option>Mar</option>
+	</select>
+
+	<select name = "day_birthday">
+		<option>Day</option>
+		<option>1</option>
+		<option>2</option>
+		<option>3</option>
+	</select>
+
+	<select name = "yr_birthday">
+		<option>Year</option>
+		<option>1999</option>
+		<option>2000</option>
+		<option>2001</option>
+	</select>
+</label>
+
+	<label for = "password"> Password
+		<input id = "password" name = "password" type = "password" pattern = "{5,10}"required title = "Password must be b/w 5 - 10 characters">
+	</label>
+	
+<label for = "checkbox"> I agree to the terms and conditions</label>
+<input type = "checkbox" name = "checkbox" id = "checkbox"></input>
+<input type = "submit">
+
+</form>
+
+</body>
+</html>

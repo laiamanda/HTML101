@@ -1,0 +1,24 @@
+h1{
+	color: #FF8000;
+	/*
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+*/
+
+	border: 5px solid purple;
+}
+li{
+	color: green;
+}
+h4{
+	background-color: rbg(255,100,80 );
+}
+body{
+	background: pink;
+	/*
+	background:url(https://i.pinimg.com/originals/29/9f/29/299f2974a12149f7fbe3425a002ab33d.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	*/
+}
